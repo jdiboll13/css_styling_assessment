@@ -5,7 +5,6 @@ body {
   padding: 1em 15em;
   background-image: url(img/bg.jpg);
   }
-
 body > div {
   border: .1em solid #ffd24a;
   border-radius: .2em;
@@ -19,9 +18,34 @@ h2, h3, a {
 ul > li {
   font-weight: bold;
 }
-
 section {
   border-bottom: .25em solid #dddddd;
+}
+table {
+  border-collapse: collapse;
+}
+thead {
+  background-color: #1fabe5;
+}
+thead > tr > td {
+  border: 1px solid #046c97;
+  color: white;
+}
+td {
+  border: 1px solid #1fabe5;
+  padding: 1em;
+}
+tbody > tr > td {
+  max-height: 2em;
+}
+td > img{
+  height: 25%;
+  width: 25%;
+}
+form {
+  background-color: #dddddd;
+  border-radius: .2em;
+  padding: 1em;
 }
 .main_navigation {
   margin-top: 2em;
@@ -33,18 +57,49 @@ section {
   padding: .75em 2em;
   text-decoration: none;
 }
+.name {
+  background-color: #ff8523;
+  color: white;
+  margin: 1em 1em;
+  border-radius: .5em;
+  padding: 1.5em;
+}
+.name label {
+  margin: 1em;
+}
+.name input {
+  height: 3em;
+  width: 15em;
+}
+.city_container {
+  margin: 1em;
+}
+.city_container label {
+  font-weight: bold;
+}
+#bio {
+  height: 15em;
+  width: 60em;
+}
 #site_header {
   background-color: #ff8523;
   padding: 1em .5em 2em 1em;
 }
-
 #logo {
   padding: 2em 0em;
   margin-bottom: 5em;
 }
-
 #page_content {
   padding: 2em 1em;
+}
+#submit_button {
+  border-radius: .5em;
+  padding: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background-color: #1fabe5;
+  border: 0;
 }
 
 
